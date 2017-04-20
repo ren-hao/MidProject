@@ -1,0 +1,56 @@
+/*
+My Custom CSS
+*/
+
+body{
+  background-color: RGB(239, 237, 232);
+}
+/* -------------------------
+  Layout
+----------------------------*/
+
+
+/* -------------------------
+  Typography
+----------------------------*/
+
+
+/* -------------------------
+  Navbar
+----------------------------*/
+.navbar-nav{
+  margin-top: 8px;
+  font-size: 2rem;
+}
+
+/* -------------------------
+  Carousel
+----------------------------*/
+#myCarousel{
+  margin-left: 105px;
+  width: 960px;
+}
+
+/* -------------------------
+  Row
+----------------------------*/
+.row{
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid RGB(239, 237, 232);
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.row img{
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+}
+.row h2{
+  padding-bottom: 10px;
+  border-bottom: 3px solid RGB(239, 237, 232);
+}
+.row h4{
+  text-align: center;
+}

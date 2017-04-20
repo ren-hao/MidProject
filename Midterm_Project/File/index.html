@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>iRecipe</title>
+    <!-- 最新編譯和最佳化的 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- 選擇性佈景主題 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 最新編譯和最佳化的 JavaScript -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a href="index.html"><img src="img/icon.png" alt="iRecipe"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#">首頁 Home</a></li>
+            <li><a href="#">熱門食譜 Hot</a></li>
+            <li><a href="#">最新食譜 New</a></li>
+            <li><a href="#">註冊 Sign</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active" id="slide1">
+            <img src="https://dbjdsnch130xu.cloudfront.net/uploads/hero_story_item/image/3623/5a0602ac04e76d6e.jpg" alt="p1">
+            <div class="carousel-caption">
+              <h1>figure1</h1>
+              <h4>describe1</h4>
+            </div>
+          </div>
+          <div class="item" id="slide2">
+            <img src="https://dbjdsnch130xu.cloudfront.net/uploads/hero_story_item/image/3672/4c93d7607c525808.jpg" alt="p2">
+            <div class="carousel-caption">
+                <h1>figure2</h1>
+                <h4>describe2</h4>
+            </div>
+          </div>
+          <div class="item" id="slide3">
+            <img src="https://dbjdsnch130xu.cloudfront.net/uploads/hero_story_item/image/3625/0e1f93d62d6fe298.jpg" alt="p3">
+            <div class="carousel-caption">
+                <h1>figure3</h1>
+                <h4>describe3</h4>
+            </div>
+          </div>
+        </div> <!--end carousel-inner-->
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><!--end carousel-->
+      <div class="row">
+        <h2>營養師推薦</h2>
+        <div class="col-lg-3">
+          <img src="img/RECOMMEND_1.jpg" alt="re1">
+          <h4>紅紅的蝦球</h4>
+        </div>
+        <div class="col-lg-3">
+          <img src="img/RECOMMEND_2.jpg" alt="re1">
+          <h4>這應該是打拋豬</h4>
+        </div>
+        <div class="col-lg-3">
+          <img src="img/RECOMMEND_3.jpg" alt="re1">
+          <h4>鬆餅加柴魚片?!</h4>
+        </div>
+        <div class="col-lg-3">
+          <img src="img/RECOMMEND_4.jpg" alt="re1">
+          <h4>我是拉麵</h4>
+        </div>
+      </div>
+      <div class="row">
+        <h2>夏日瘋美食</h2>
+      </div>
+      <div class="row">
+        <h2>近期活動</h2>
+      </div>
+    </div>
+    <footer>
+
+    </footer>
+  </body>
+</html>
