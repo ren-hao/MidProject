@@ -4,6 +4,8 @@ My Custom CSS
 
 body{
   background-color: RGB(239, 237, 232);
+  margin: 0px;
+font-family: "Helvetica Neue", Helvetica, Roboto, Arial, Geneva, "Heiti TC", "Microsoft JhengHei", sans-serif;
 }
 /* -------------------------
   Layout
@@ -22,14 +24,20 @@ body{
   margin-top: 8px;
   font-size: 2rem;
 }
-
+.navbar .container{
+  width: 1170px;
+}
 /* -------------------------
   Carousel
 ----------------------------*/
 #myCarousel{
-  margin-left: 105px;
-  width: 960px;
+  width: 1170px;
+  margin-left: -15px;
 }
+#myCarousel img{
+  border-radius: 5px;
+}
+
 
 /* -------------------------
   Row
@@ -41,16 +49,26 @@ body{
   border: 2px solid RGB(239, 237, 232);
   border-radius: 5px;
   padding: 5px 20px;
+    box-sizing: border-box;
 }
 .row img{
   border-radius: 5px;
   width: 250px;
   height: 250px;
 }
-.row h2{
+img:hover{
+  filter:alpha(Opacity=80);
+  -moz-opacity:0.8;
+  opacity: 0.8;
+}
+.row h3{
+  padding-left: 10px;
   padding-bottom: 10px;
   border-bottom: 3px solid RGB(239, 237, 232);
 }
 .row h4{
-  text-align: center;
+  text-align:left;
+}
+.row .person{
+  color: RGB(188, 188, 188);
 }
