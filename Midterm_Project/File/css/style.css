@@ -72,3 +72,15 @@ img:hover{
 .row .person{
   color: RGB(188, 188, 188);
 }
+
+/* -------------------------
+  Footer
+----------------------------*/
+footer{
+  background-color: white;
+  height: 200px;
+}
+footer a img{
+  width: 150px;
+  height: 150px;
+}
