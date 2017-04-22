@@ -10,7 +10,13 @@ font-family: "Helvetica Neue", Helvetica, Roboto, Arial, Geneva, "Heiti TC", "Mi
 /* -------------------------
   Layout
 ----------------------------*/
-
+.navbar-header img{
+  width: 100px;
+  height: 80px;
+}
+.navbar-header:hover{
+  transform: scale(1.1);
+}
 
 /* -------------------------
   Typography
@@ -21,7 +27,7 @@ font-family: "Helvetica Neue", Helvetica, Roboto, Arial, Geneva, "Heiti TC", "Mi
   Navbar
 ----------------------------*/
 .navbar-nav{
-  margin-top: 8px;
+  margin-top: 15px;
   font-size: 2rem;
 }
 .navbar .container{
@@ -49,17 +55,15 @@ font-family: "Helvetica Neue", Helvetica, Roboto, Arial, Geneva, "Heiti TC", "Mi
   border: 2px solid RGB(239, 237, 232);
   border-radius: 5px;
   padding: 5px 20px;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .row img{
   border-radius: 5px;
   width: 250px;
   height: 250px;
 }
-img:hover{
-  filter:alpha(Opacity=80);
-  -moz-opacity:0.8;
-  opacity: 0.8;
+.container img:hover{
+  opacity: 0.7;
 }
 .row h3{
   padding-left: 10px;
@@ -79,8 +83,23 @@ img:hover{
 footer{
   background-color: white;
   height: 200px;
+  text-align: center;
+
 }
-footer a img{
-  width: 150px;
-  height: 150px;
+footer .container p{
+  margin-top: 8px;
+}
+footer .row{
+  border-style: none;
+}
+footer .row img{
+  width: 50px;
+  height: 50px;
+}
+footer .col-lg-3:hover{
+  transform: scale(1.1);
+}
+footer .copyright{
+  padding-top: 15px;
+  border-top: 2px solid RGB(239, 237, 232);
 }
