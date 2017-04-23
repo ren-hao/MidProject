@@ -52,7 +52,6 @@ body{
   background-color: white;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 2px solid RGB(239, 237, 232);
   border-radius: 5px;
   padding: 5px 20px;
   box-sizing: border-box;
@@ -130,9 +129,27 @@ body{
   height: 30px;
 }
 /* -------------------------
-  Make
+  STEP
 ----------------------------*/
-
+.step1 img, .step img{
+  width: 220px;
+  height: 165px;
+}
+.step1 h1, .step h1{
+  margin: 0px;
+  margin-bottom: 15px;
+  padding: 0px;
+  border: none;
+}
+.step1{
+  margin-top: 50px;
+  border-top: 2px solid RGB(200, 200, 200);
+  border-bottom: 2px solid RGB(239, 237, 232);
+}
+.step{
+  margin-top: 50px;
+  border-bottom: 2px solid RGB(239, 237, 232);
+}
 /* -------------------------
   Footer
 ----------------------------*/
