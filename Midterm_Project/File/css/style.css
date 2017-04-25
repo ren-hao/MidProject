@@ -23,7 +23,7 @@ body{
   width: 100px;
   height: 80px;
 }
-.navbar-header:hover{
+.navbar-header img:hover{
   transform: scale(1.1);
 }
 .navbar-nav{
@@ -31,7 +31,6 @@ body{
   font-size: 2rem;
 }
 .navbar .container{
-  width: 48%;
   padding-left: 0px;
 }
 
@@ -217,15 +216,9 @@ footer .copyright{
   RWD
 ----------------------------*/
 @media (min-width: 480px){
-  .home .row img{
-    width: 320px;
-    height: 320px;
+  .navbar .container{
+      width: 65%;
   }
-  .home .row h3, .home .row h4{
-    text-align: center;
-  }
-}
-@media (min-width: 768px){
   .item h1{
     font-size: 20px;
   }
@@ -239,8 +232,39 @@ footer .copyright{
   .home .row h3, .home .row h4{
     text-align: center;
   }
+  .hotImg img{
+    margin-top: 30px;
+    width: 210px;
+    height: 175px;
+  }
+}
+@media (min-width: 768px){
+  .navbar .container{
+      width: 75%;
+  }
+  .item h1{
+    font-size: 20px;
+  }
+  .item h4{
+    font-size: 15px;
+  }
+  .home .row img{
+    width: 320px;
+    height: 320px;
+  }
+  .home .row h3, .home .row h4{
+    text-align: center;
+  }
+  .hotImg img{
+    margin-top: 30px;
+    width: 210px;
+    height: 175px;
+  }
 }
 @media (min-width: 1200px){
+  .navbar .container{
+      width: 60%;
+  }
   .item h1{
     font-size: 40px;
   }
@@ -254,8 +278,12 @@ footer .copyright{
   .home .row h3, .home .row h4{
     text-align: left;
   }
+  .hotImg img{
+    margin-top: 0px;
+    width: 300px;
+    height: 250px;
+  }
 }
-
 /* -------------------------
   Img Flip
 ----------------------------*/
