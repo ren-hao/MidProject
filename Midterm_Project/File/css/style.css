@@ -32,6 +32,7 @@ body{
 }
 .navbar .container{
   width: 1170px;
+  padding-left: 0px;
 }
 /* -------------------------
   Carousel
@@ -209,4 +210,46 @@ footer .copyright{
   margin-top: 5px;
   padding-top: 15px;
   border-top: 2px solid RGB(239, 237, 232);
+}
+
+/* -------------------------
+  Img Flip
+----------------------------*/
+.container-box{
+  perspective:1000;
+  transform-style:preserve-3d;
+}
+.container-box,.front,.back{
+  width:250px;height:250px;
+}
+.flip{
+  position:relative;
+  transition:0.6s;
+  transform-style:preserve-3d;
+}
+.front,.back{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  backface-visibility:hidden;
+}
+.front{
+  z-index:2;
+}
+.back{
+  transform:rotateY(-180deg);
+}
+.container-box:hover .flip{
+  transform:rotateY(180deg);
+}
+.front img, .back img{
+  border-radius: 50%;
+  width: 250px;height: 250px;
+}
+.offset{
+  margin-top: 80px;
+  margin-left: 100px;
+}
+#aboutus{
+  padding-bottom: 80px;
 }
