@@ -294,6 +294,11 @@ footer .copyright{
     height: 540px;
   }
 }
+@media (min-width: 1300px){
+  .navbar .container{
+      width: 58%;
+  }
+}
 /* -------------------------
   Img Flip
 ----------------------------*/
