@@ -268,7 +268,7 @@ footer .copyright{
 }
 @media (min-width: 1200px){
   .navbar .container{
-      width: 70%;
+      width: 1170px;
   }
   .item h1{
     font-size: 40px;
@@ -296,7 +296,7 @@ footer .copyright{
 }
 @media (min-width: 1300px){
   .navbar .container{
-      width: 58%;
+      width: 1170px;
   }
 }
 /* -------------------------
